@@ -18,7 +18,7 @@ class _MahasiswaForm2State extends State<MahasiswaForm2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Tambah Mahasiswa")),
+      appBar: AppBar(title: Text("Tambah Mata Kuliah")),
       body: Form(
         key: _formKey,
         child: Column(
@@ -44,7 +44,7 @@ class _MahasiswaForm2State extends State<MahasiswaForm2> {
 
   Widget mataKuliahField() {
     return TextField(
-      decoration: InputDecoration(labelText: "mata Kuliah"),
+      decoration: InputDecoration(labelText: "Mata Kuliah"),
       controller: _mataKuliahCtrl,
     );
   }
@@ -59,7 +59,7 @@ class _MahasiswaForm2State extends State<MahasiswaForm2> {
 
   Widget semesterField() {
     return TextField(
-      decoration: InputDecoration(labelText: "semester"),
+      decoration: InputDecoration(labelText: "Semester"),
       controller: _semesterCtrl,
     );
   }

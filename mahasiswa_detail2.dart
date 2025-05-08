@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class MahasiswaDetail extends StatelessWidget {
@@ -11,7 +9,7 @@ class MahasiswaDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Detail Mahasiswa")),
+      appBar: AppBar(title: Text("Detail Mata Kuliah")),
       body: Center(
         child: Column(
           children: [
