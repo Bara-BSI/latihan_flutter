@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'mahasiswa_form2.dart';
+import 'home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MahasiswaForm2(),
+      home: Home(),
     );
   }
 }
