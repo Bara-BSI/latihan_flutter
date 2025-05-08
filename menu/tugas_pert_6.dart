@@ -17,13 +17,13 @@ class _TugasPert6State extends State<TugasPert6> {
     super.dispose();
   }
 
-  int baris = 0;
-  int kolom = 0;
+  int baris = 1;
+  int kolom = 1;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Baris Dinamis")),
+      appBar: AppBar(title: Text("Tabel Dinamis")),
       body: Column(
         children: [
           Row(
@@ -40,7 +40,7 @@ class _TugasPert6State extends State<TugasPert6> {
               ),
               ElevatedButton(
                 onPressed: () => setState(() {
-                  if (baris > 0) {
+                  if (baris > 1) {
                     baris--;
                   }
                 }),
@@ -64,7 +64,7 @@ class _TugasPert6State extends State<TugasPert6> {
               ),
               ElevatedButton(
                 onPressed: () => setState(() {
-                  if (kolom > 0) {
+                  if (kolom > 1) {
                     kolom--;
                   }
                 }),

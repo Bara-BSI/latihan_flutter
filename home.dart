@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
           parsing(Icons.play_arrow, "Contoh Stateful", context, ContohStateful()),
           parsing(Icons.account_box, "Form Mahasiswa", context, MahasiswaForm()),
           parsing(Icons.book, "Form Mata Kuliah (Tugas Pertemuan 7)", context, MahasiswaForm2()),
-          parsing(Icons.playlist_add, "Baris Dinamis (Tugas Pertemuan 6)", context, TugasPert6())
+          parsing(Icons.playlist_add, "Tabel Dinamis (Tugas Pertemuan 6)", context, TugasPert6())
         ],
       ),
     );
