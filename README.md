@@ -4,7 +4,7 @@
 - Buat aplikasi
 - Buka terminal pada folder aplikasi dan ketikkan di bawah ini
 ```bash
-rm -r lib
+rm -rf lib
 git clone https://github.com/Bara-BSI/latihan_flutter.git lib
 ```
 - Jalankan pada main.dart
