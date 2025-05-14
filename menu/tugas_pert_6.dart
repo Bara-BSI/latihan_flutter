@@ -9,14 +9,6 @@ class TugasPert6 extends StatefulWidget {
 
 class _TugasPert6State extends State<TugasPert6> {
 
-  final namaController = TextEditingController();
-
-  @override
-  void dispose() {
-    namaController.dispose();
-    super.dispose();
-  }
-
   int baris = 1;
   int kolom = 1;
 
